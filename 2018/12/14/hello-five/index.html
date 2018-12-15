@@ -16,7 +16,7 @@
 <meta property="og:site_name" content="猿小肆">
 <meta property="og:description" content="Quick StartCreate a new post1$ hexo new &quot;My New Post&quot; More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-12-14T14:47:54.524Z">
+<meta property="og:updated_time" content="2018-12-15T02:29:24.838Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="hello, five">
 <meta name="twitter:description" content="Quick StartCreate a new post1$ hexo new &quot;My New Post&quot; More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1">
@@ -72,6 +72,8 @@
     			<a q-on="click: openSlider(e, 'innerArchive')" href="javascript:void(0)">所有文章</a>
     			
             
+    			
+    			<a q-on="click: openSlider(e, 'friends')" href="javascript:void(0)">友链</a>
     			
             
     			
@@ -267,7 +269,7 @@
   
 <nav id="article-nav">
   
-    <a href="/2018/12/14/hello-world/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2018/12/15/hello-world/" id="article-nav-newer" class="article-nav-link-wrap">
       <i class="icon-circle-left"></i>
       <div class="article-nav-title">
         
@@ -362,6 +364,8 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
       
     
       
+      
+      
     
       
       
@@ -373,13 +377,15 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
     
     
       
-      <li style="width: 50%" q-on="click: openSlider(e, 'innerArchive')"><a href="javascript:void(0)" q-class="active:innerArchive">所有文章</a></li>
+      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'innerArchive')"><a href="javascript:void(0)" q-class="active:innerArchive">所有文章</a></li>
       
         
       
+      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'friends')"><a href="javascript:void(0)" q-class="active:friends">友链</a></li>
+      
         
       
-      <li style="width: 50%" q-on="click: openSlider(e, 'aboutme')"><a href="javascript:void(0)" q-class="active:aboutme">关于我</a></li>
+      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'aboutme')"><a href="javascript:void(0)" q-class="active:aboutme">关于我</a></li>
       
         
     </ul>
@@ -446,6 +452,22 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
     	</section>
     
 
+    
+    	<section class="tools-section tools-section-friends" q-show="friends">
+  		
+        <ul class="search-ul">
+          
+            <li class="search-li">
+              <a href="http://demo.php.cn" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>在线运行PHP代码工具</a>
+            </li>
+          
+            <li class="search-li">
+              <a href="https://cczeng.github.io" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>远方和诗</a>
+            </li>
+          
+        </ul>
+  		
+    	</section>
     
 
     
